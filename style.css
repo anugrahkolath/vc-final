@@ -1,0 +1,279 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h2{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  padding:0.5em;
+}
+h3{
+  color: white;
+  padding: 0.5em;
+}
+h1{
+  padding: 70px 40px  40px;
+  font-size: 2.5rem;
+font-weight: bold;
+color: white;
+
+}
+.mainpic{
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+}
+.navbar {
+  padding: 10px 70px;
+}
+/* Float four columns side by side */
+.column {
+ padding: 10px 10px;
+}
+p{
+  font-size: 1.5em;
+    line-height: 2;
+}
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+
+}
+.about-us{
+  height: 10%;
+  background-color: #52575d;
+ color: white;
+ padding: 2em 4em 5em 4em;
+ font-family: 'Comfortaa', cursive;
+}
+#services{
+
+  background-color: white;
+/*
+  padding-top: 100px;
+  height: 800px; */
+  font-family: 'Comfortaa', cursive;
+padding-bottom: 10%;
+padding-top: 10%;
+
+}
+.serv-div{
+  color: black;
+}
+.serv-card{
+  font-size: 1em;
+  text-align: centre;
+
+  width: 100%;
+
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* service card */
+
+/* Float four columns side by side */
+.column {
+  /* float: left; */
+  /* display: flex;
+  flex-direction: column; */
+    /* width: 20%;
+    padding: 15px 45px 15px 15px;
+    margin-left: 70px; */
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row2 {
+ /* using css grid to better align menu items */
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(4, auto);
+
+  margin-left: 7%;
+  margin-right: 7%;
+
+}
+.row1 {
+ /* using css grid to better align menu items */
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
+
+  margin-left: 12%;
+  margin-right: 12%;
+
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 7%;
+  width: 250px;
+  height: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+/** consultants ***/
+.testimonial-image {
+  text-align: center;
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px auto 50px;
+}
+.consultant{
+  font-family: 'Comfortaa', cursive;
+width: 100%;
+height: 1100px;
+  background-color: #52575d;
+ color: white;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+.cons-p{
+  padding-right: 10%;
+  padding-left:  10%;
+}
+
+
+/*** contact us **/
+
+a, a:hover{
+  text-decoration: none;
+  color: white;
+}
+.cont-div{
+  background-color: black;
+text-align: left;
+padding: 30px 10% 30px 10%;
+font-family: 'Comfortaa', cursive;
+}
+.container-contact{
+  color: #bbbfca;
+}
+.container-fluid{
+  padding: 0;
+}
+ul{
+  list-style: none;
+}
+/*   footer */
+
+.social-icon {
+  padding: 3%;
+}
+hr{
+  height: 2px;
+  width: 100%;
+  margin: 0;
+  background-color: #52575d;
+  border: none;
+}
+
+@media screen and (max-width: 920px){
+  .row2 , .row1 {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, auto);
+
+    margin-left: 1%;
+    margin-right: 1%;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  }
+  h2{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0.25em;
+  }
+  h3{
+    color: white;
+    padding: 0.25em;
+  }
+  h1{
+    padding: 70px 40px  40px;
+    font-size: 2rem;
+  font-weight: bold;
+  color: white;
+
+}
+.consultant{
+height: 100%;
+
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 7%;
+    width: 100%;
+    height: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+
+  }
+  .row2 , .row1 {
+
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(1, auto);
+
+
+  }
+  h2{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0.25em;
+  }
+  h3{
+    color: white;
+    padding: 0.25em;
+  }
+  h1{
+    padding: 70px 40px  40px;
+    font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+
+}
+p{
+  font-size: 1rem;
+}
+.consultant{
+  font-family: 'Comfortaa', cursive;
+width: 100%;
+height: 100%;
+  background-color: #52575d;
+ color: white;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+}
